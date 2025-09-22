@@ -1,0 +1,35 @@
+.cont-letras {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+      color:#ffd600; /* amarillo */
+    height: 100vh;
+}
+
+.cont-letras div {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+}
+
+.cont-letras div span {
+    font-size: 48px !important;
+    font-weight: 600;
+}
+
+.cont-letras img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 70px;
+}
+
+.dedicatoria {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 15px;
+    color: #fff
+}
